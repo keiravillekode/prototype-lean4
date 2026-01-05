@@ -1,0 +1,15 @@
+name = "hello-world"
+version = "0.1.0"
+defaultTargets = ["HelloWorldTest"]
+
+[[require]]
+name = "LeanTest"
+git = "https://github.com/tim-br/LeanTest"
+rev = "main"
+
+[[lean_lib]]
+name = "HelloWorld"
+
+[[lean_exe]]
+name = "HelloWorldTest"
+root = "HelloWorldTest"

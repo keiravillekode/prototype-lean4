@@ -1,15 +1,19 @@
 # Tests
 
-<!-- TODO: write document
+To run the tests, first make sure you have [Lake](https://github.com/leanprover/lake) installed (it comes with Lean 4).
 
-  This document should contain instructions on how to run the exercise's tests.
+From the exercise directory, run:
 
-  The instructions should be short and to the point.
+```bash
+lake update
+lake build
+./.lake/build/bin/<ExerciseName>Test
+```
 
-  The docs/TESTS.md file can contain a more verbose description on how to run tests.
+For example, for the hello-world exercise:
 
-  When a student downloads an exercise via the CLI, this file's contents are
-  included into the HELP.md file.
-
-  See https://exercism.org/docs/building/tracks/shared-files for more information.
--->
+```bash
+lake update
+lake build
+./.lake/build/bin/HelloWorldTest
+```
