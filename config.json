@@ -29,7 +29,6 @@
     ]
   },
   "exercises": {
-    "concept": [],
     "practice": [
       {
         "slug": "hello-world",
@@ -38,14 +37,20 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 1
+      },
+      {
+        "slug": "darts",
+        "name": "Darts",
+        "uuid": "1c8d6d26-be14-4d55-9ae0-0029411a626f",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
       }
     ]
   },
-  "concepts": [],
-  "key_features": [],
   "tags": [
-    "paradigm/functional",
     "paradigm/declarative",
+    "paradigm/functional",
     "typing/static",
     "typing/strong"
   ]

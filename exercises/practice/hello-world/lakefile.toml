@@ -5,6 +5,7 @@ testDriver = "HelloWorldTest"
 
 [[lean_lib]]
 name = "LeanTest"
+srcDir = "vendor/LeanTest"
 
 [[lean_lib]]
 name = "HelloWorld"
